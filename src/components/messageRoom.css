@@ -1,0 +1,85 @@
+.main-message-room {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.message-navbar {
+  height: 20px;
+  background: green;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 20px 20px;
+  box-shadow: 1px 1px 6px grey;
+}
+
+.message-body {
+  width: 100%;
+  height: calc(100vh - 130px);
+
+  overflow: scroll;
+}
+
+.message-body::-webkit-scrollbar {
+  display: none;
+}
+.message-input {
+  width: 100%;
+  height: 40px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 10px;
+}
+
+.icon-side {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.message-txt {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  width: 400px;
+  height: 40px;
+}
+
+::placeholder {
+  color: lightgrey;
+}
+
+.text-icons {
+  display: flex;
+  color: gray;
+  gap: 10px;
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+.keybd-form {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  margin-inline: 10px;
+}
+
+.typeside-icon {
+  display: flex;
+  gap: 15px;
+}
+
+.smile {
+  font-size: 1.5rem;
+  color: grey;
+  padding-top: 10px;
+}
+
+.send {
+  margin-right: 50px;
+  margin-left: -40px;
+}

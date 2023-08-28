@@ -1,0 +1,73 @@
+.blogs-main {
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.blogs-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-poster {
+  width: 70px;
+  color: black;
+}
+
+.posts {
+  padding-top: 10px;
+}
+
+hr {
+  margin-top: 10px;
+  border: 1px solid lightgray;
+}
+
+.reaction-area {
+  margin: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  width: 70px;
+  height: 20px;
+  cursor: pointer;
+  .like-txt {
+    position: absolute;
+    left: 45px;
+    top: -15px;
+  }
+}
+
+.comment {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  margin-right: 70px;
+  cursor: pointer;
+  width: 100px;
+  height: 20px;
+
+  .comment-txt {
+    position: absolute;
+    left: 45px;
+    top: -17px;
+  }
+}
+
+.comment:hover,
+.like:hover {
+  background-color: rgb(252, 247, 247);
+}
+
+.blog-img {
+  width: 500px;
+}
+.blog-img img {
+  max-width: 450%;
+}

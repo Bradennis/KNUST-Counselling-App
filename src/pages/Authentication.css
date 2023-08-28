@@ -1,0 +1,121 @@
+:root {
+  --greenColor: green;
+}
+
+.full-page {
+  /* display: flex; */
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-form {
+  display: flex;
+  height: 400px;
+  margin: 30px;
+}
+
+.bg-image {
+  margin-left: -50px;
+  height: 100vh;
+  width: 800px;
+}
+
+.login-page {
+  background: white;
+  width: 380px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 1px 1px 6px rgb(14, 8, 8);
+}
+
+.login-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.login-forms {
+  margin-block: 10px;
+}
+
+.input-btn {
+  width: 250px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+  padding-left: 20px;
+  font-size: 1rem;
+  color: darkgray;
+}
+
+::placeholder {
+  color: darkgray;
+  font-size: 1rem;
+}
+
+.avatar-label {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  position: relative;
+  border-bottom: 1px solid lightgray;
+}
+
+.span {
+  color: lightgray;
+  position: absolute;
+
+  left: 70px;
+  font-size: 1.3rem;
+}
+.avatar {
+  font-size: 40px;
+  color: darkgray;
+}
+
+.btn {
+  width: 250px;
+  height: 35px;
+  background: green;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(18, 162, 18);
+}
+
+.bottomline-info {
+  padding: 20px 0 30px 0;
+}
+
+.info span {
+  color: blue;
+}
+
+/* -- mobile view -- */
+@media (max-width: 470px) {
+  .login-page {
+    width: 300px;
+    flex-direction: column;
+  }
+}
+/* -- end mobile view -- */
+
+/* -- tablet view */
+@media (max-width: 770px) {
+  .login-page {
+    flex-direction: column;
+  }
+}
+/* -- end tablet view */
